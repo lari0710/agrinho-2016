@@ -1,0 +1,103 @@
+CSS
+
+*{ 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box;
+}
+
+body{ 
+  font-family: Arial, sans-serif;
+  background-color: #f4fff4;
+  color: #333;
+}
+
+header{ 
+  background: linear-gradient(90deg, #1b5e20, #43a047);
+  color: white;
+  text-align: center; 
+  padding: 50px 20px; 
+}
+
+header h1{ 
+  font-size: 50px; 
+} 
+
+header h2{
+  margin-top: 10px; 
+  font-size: 30px; 
+}
+
+header p{ 
+  margin-top: 15px; 
+  font-size: 20px;
+} 
+
+.sobre{ 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  gap: 40px; 
+  padding: 50px; 
+  flex-wrap: wrap; 
+}
+
+.sobre img{ 
+  width: 400px; 
+  border-radius: 20px; 
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.texto{ 
+  max-width: 500px; 
+}
+
+.texto h3{ 
+  color: #2e7d32; 
+  font-size: 35px; 
+  margin-bottom: 20px; 
+} 
+
+.texto p{ 
+  font-size: 18px; 
+  margin-bottom: 15px; 
+  line-height: 1.6; 
+} 
+
+.cards{ 
+  display: flex; 
+  justify-content: center; 
+  gap: 20px; 
+  padding: 40px; 
+  flex-wrap: wrap; 
+} 
+
+.card{
+  background-color: white;
+  width: 300px; 
+  padding: 25px; 
+  border-radius: 15px; 
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1); 
+  transition: 0.3s; 
+}
+
+.card:hover{ 
+  transform: scale(1.05); 
+}
+
+.card h3{ 
+  color: #2e7d32;
+  margin-bottom: 15px; 
+}
+
+.card p{
+  font-size: 17px;
+} 
+
+footer{ 
+  background-color: #1b5e20; 
+  color: white; 
+  text-align: center; 
+  padding: 20px; 
+  margin-top: 30px;
+}
